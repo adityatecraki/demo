@@ -1,7 +1,7 @@
 const express=require('express');
 const pg= require("pg");
 const sequelize = require("./connection.js");
-const User = require("./modal.js")
+const User = require("./modal.js");
 
 const app=express();
 
